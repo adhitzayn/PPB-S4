@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AplikasiBeeOrganize</string>
+    <string name="content_desc_profile_button">profile_button</string>
+    <string name="content_desc_pencarian_button">pencarian_button</string>
+    <string name="content_desc_search_button">search_button</string>
+    <string name="content_desc_backgorud_menu">backgorud_menu</string>
+    <string name="content_desc_menu_1">menu_1</string>
+    <string name="content_desc_bg_button">bg_button</string>
+    <string name="content_desc_icon_1">icon_1</string>
+    <string name="content_desc_icon_2">icon_2</string>
+    <string name="content_desc_icon_3">icon_3</string>
+    <string name="content_desc_icon_4">icon_4</string>
+    <string name="content_desc_icon_5">icon_5</string>
+    <string name="content_desc_icon_6">icon_6</string>
+    <string name="content_Desc_add_button">add_button</string>
+    <string name="content_Desc_icon_8">icon_8</string>
+    <string name="content_desc_icon_7">icon_7</string>
+    <string name="adolfo">Adolfo</string>
+    <string name="febaruari_2">15 Febaruari 2022</string>
+    <string name="task_schedu">TASK\nSCHEDULE</string>
+    <string name="task_remind">TASK\nREMINDER</string>
+    <string name="note">NOTE</string>
+    <string name="kelas">CLASS</string>
+    <string name="meeting_roo">MEETING ROOM</string>
+    <string name="contact">CONTACT</string>
+    <string name="hint_find_your_class_note_schedule_contact_etc">Find your class, note, schedule, contact, etc</string>
+    <string name="content_desc_image_button">content_desc_image_button</string>
+    <string name="this_is_class">CLASS</string>
+
+
+</resources>
