@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AplikasiUTS</string>
+    <string name="klasmen_sem">Klasmen Sementara Liga 1</string>
+    <string name="peringkat">Peringkat</string>
+    <string name="nama_klub">Nama Klub</string>
+    <string name="point">Point</string>
+    <string name="detail_klub">Detail Klub</string>
+    <string name="bali_united">BALI UNITED</string>
+    <string name="point2">Point</string>
+    <string name="peringkat_k">Peringkat ke-1</string>
+    <string name="some_id">69</string>
+    <string name="some_id2">1</string>
+    <string name="bali_united2">Bali United</string>
+
+
+
+
+</resources>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/header"
+        android:layout_width="411dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="676dp"
+        android:background="@drawable/header"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/tabel_1"
+        android:layout_width="83dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/tabel_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/tabel_2"
+        android:layout_width="201dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/tabel_2"
+        app:layout_constraintStart_toEndOf="@+id/tabel_1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/tabel_3"
+        android:layout_width="62dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/tabel_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tabel_2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/isitabel_1"
+        android:layout_width="83dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/isitabel_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabel_1" />
+
+    <ImageButton
+        android:id="@+id/isitabel_1_2"
+        android:layout_width="83dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/isitabel_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isitabel_1_3" />
+
+    <ImageButton
+        android:id="@+id/isitabel_1_3"
+        android:layout_width="83dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/isitabel_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isitabel_1_4" />
+
+    <ImageButton
+        android:id="@+id/isitabel_1_4"
+        android:layout_width="83dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/isitabel_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isitabel_1_5" />
+
+    <ImageButton
+        android:id="@+id/isitabel_1_5"
+        android:layout_width="83dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/isitabel_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isitabel_1" />
+
+    <ImageButton
+        android:id="@+id/isitabel_2"
+        android:layout_width="202dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/isitabel_2"
+        app:layout_constraintEnd_toStartOf="@+id/isitabel_3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/isitabel_1"
+        app:layout_constraintTop_toBottomOf="@+id/tabel_2" />
+
+    <ImageButton
+        android:id="@+id/isitabel_2_2"
+        android:layout_width="202dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/isitabel_2"
+        app:layout_constraintEnd_toStartOf="@+id/isitabel_3_2"
+        app:layout_constraintStart_toEndOf="@+id/isitabel_1_5"
+        app:layout_constraintTop_toBottomOf="@+id/isitabel_2" />
+
+
+    <ImageButton
+        android:id="@+id/isitabel_2_3"
+        android:layout_width="202dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/isitabel_2"
+        app:layout_constraintEnd_toStartOf="@+id/isitabel_3_3"
+        app:layout_constraintStart_toEndOf="@+id/isitabel_1_4"
+        app:layout_constraintTop_toBottomOf="@+id/isitabel_2_2" />
+
+    <ImageButton
+        android:id="@+id/isitabel_2_4"
+        android:layout_width="202dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/isitabel_2"
+        app:layout_constraintEnd_toStartOf="@+id/isitabel_3_4"
+        app:layout_constraintStart_toEndOf="@+id/isitabel_1_3"
+        app:layout_constraintTop_toBottomOf="@+id/isitabel_2_3" />
+
+    <ImageButton
+        android:id="@+id/isitabel_2_5"
+        android:layout_width="202dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/isitabel_2"
+        app:layout_constraintEnd_toStartOf="@+id/isitabel_3_5"
+        app:layout_constraintStart_toEndOf="@+id/isitabel_1_2"
+        app:layout_constraintTop_toBottomOf="@+id/isitabel_2_4" />
+
+    <ImageButton
+        android:id="@+id/isitabel_3"
+        android:layout_width="62dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/isitabel_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabel_3" />
+
+    <ImageButton
+        android:id="@+id/isitabel_3_2"
+        android:layout_width="62dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/isitabel_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isitabel_3" />
+
+    <View
+        android:id="@+id/isitabel_3_3"
+        android:layout_width="62dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/isitabel_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isitabel_3_2" />
+
+    <ImageButton
+        android:id="@+id/isitabel_3_4"
+        android:layout_width="62dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/isitabel_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isitabel_3_3" />
+
+    <ImageButton
+        android:id="@+id/isitabel_3_5"
+        android:layout_width="62dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/isitabel_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isitabel_3_4" />
+
+    <TextView
+        android:id="@+id/klasmen_sem"
+        android:layout_width="255dp"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="top"
+        android:text="@string/klasmen_sem"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/peringkat"
+        android:layout_width="63dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center_horizontal|top"
+        android:text="@string/peringkat"
+        android:textColor="@color/background"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tabel_1"
+        app:layout_constraintEnd_toEndOf="@+id/tabel_1"
+        app:layout_constraintStart_toStartOf="@+id/tabel_1"
+        app:layout_constraintTop_toTopOf="@+id/tabel_1" />
+
+    <TextView
+        android:id="@+id/nama_klub"
+        android:layout_width="132dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center_horizontal|top"
+        android:text="@string/nama_klub"
+        android:textColor="@color/background"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tabel_2"
+        app:layout_constraintEnd_toEndOf="@+id/tabel_2"
+        app:layout_constraintStart_toStartOf="@+id/tabel_2"
+        app:layout_constraintTop_toTopOf="@+id/tabel_2" />
+
+    <TextView
+        android:id="@+id/point"
+        android:layout_width="48dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center_horizontal|top"
+        android:text="@string/point"
+        android:textColor="@color/background"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tabel_3"
+        app:layout_constraintEnd_toEndOf="@+id/tabel_3"
+        app:layout_constraintStart_toStartOf="@+id/tabel_3"
+        app:layout_constraintTop_toTopOf="@+id/tabel_3" />
+
+    <TextView
+        android:id="@+id/some_id2"
+        android:layout_width="65dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center_horizontal|top"
+        android:text="@string/some_id2"
+        android:textColor="@color/background"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/isitabel_1"
+        app:layout_constraintEnd_toEndOf="@+id/isitabel_1"
+        app:layout_constraintStart_toStartOf="@+id/isitabel_1"
+        app:layout_constraintTop_toTopOf="@+id/isitabel_1" />
+
+    <TextView
+        android:id="@+id/bali_united2"
+        android:layout_width="179dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/bali_united2"
+        android:textColor="@color/background"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/isitabel_2"
+        app:layout_constraintStart_toStartOf="@+id/isitabel_2"
+        app:layout_constraintTop_toTopOf="@+id/isitabel_2"
+        app:layout_constraintVertical_bias="0.521" />
+
+    <TextView
+        android:id="@+id/some_id"
+        android:layout_width="47dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="@string/some_id"
+        android:textColor="@color/background"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/isitabel_3"
+        app:layout_constraintEnd_toEndOf="@+id/isitabel_3"
+        app:layout_constraintStart_toStartOf="@+id/isitabel_3"
+        app:layout_constraintTop_toTopOf="@+id/isitabel_3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
